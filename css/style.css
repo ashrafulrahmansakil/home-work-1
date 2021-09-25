@@ -132,9 +132,21 @@ input[type="button"]:hover{
 /*====================================
                   Nav
 ====================================*/
+.checkbtn{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  display: none;
+}
+
+#check{
+  display:none;
+}
+
+
 .nav__area{
   padding: 18px 0;
-  background: #e3e3e3;
+  background: #dddddd;
 }
 
 .nav__top {

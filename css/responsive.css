@@ -11,7 +11,37 @@
   }
 
 /* menu */
+.nav__button {
+  display: none;
+}
+
+.checkbtn{
+  display: block;
+  cursor: pointer;
+}
   
+.nav__menu ul {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: -200%;
+  top: 80px;
+  transition: all .5s;
+}
+
+.nav__menu ul li {
+  display:block ;
+}
+
+.nav__menu ul li a{
+  color: #fff;
+}
+
+#check:checked ~ ul{
+  left: 0;
+}
+
+
   /* slider */
   .slider__title{
   font-size: 40px;

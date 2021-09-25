@@ -668,3 +668,7 @@ opacity: .5;
   text-decoration: none;
   font-weight: 400;
 }
+
+.single__info ul li a:hover{
+  color: #007bff;
+}

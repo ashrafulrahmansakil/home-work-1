@@ -1,0 +1,670 @@
+/*====================================
+                   root 
+====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 95%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+span{
+  color: #5db2ff;
+}
+
+button{
+  background-color: #83c4ff;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .5s;
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid;
+}
+
+            /* input */
+
+input[type="button"]{
+  background: #009dff;
+  padding: 12px 26px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+input[type="button"]:hover{
+  background-color: #fff;
+  color: #009dff;
+  border: 1px solid #009dff;
+  
+}
+
+
+
+/*=====================================
+                 header part
+ ====================================*/
+
+.header__top {
+  padding: 12px 0;
+  background: #e4f3fd;
+  overflow: hidden;
+}
+
+.header__social {
+  float: left;
+  width: 70%;
+  padding: 5px 0;
+}
+
+.header__contact__list {
+  float: right;
+  width: 30%;
+}
+
+.header__social__links {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.header__social__links i{
+  list-style: none;
+  color: #c7c7c7;
+  font-size: 15px;
+}
+
+
+.header__contact__list__icon {
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+.header__contact__list__icon a{
+  text-decoration: none;
+  color: #919191;
+  padding: 0px 10px;
+  font-size: 13px;
+}
+
+.header__contact__list__icon i {
+  color: #5db2ff;
+}
+
+/* hover icon */
+
+.fa-linkedin:hover{
+  color: #0A66C2;
+}
+
+.fa-facebook:hover{
+  color: #1877F2;
+}
+
+.fa-twitter:hover{
+  color: #1DA1F2;
+}
+
+.fa-instagram:hover{
+  color: #833AB4;
+}
+
+/*====================================
+                  Nav
+====================================*/
+.nav__area{
+  padding: 18px 0;
+  background: #e3e3e3;
+}
+
+.nav__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clear: both;
+}
+
+.nav__menu ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px 10px;
+  position:relative;
+}
+
+.nav__menu ul li a {
+  color: #5c5c5c;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav__menu ul li a:hover{
+  color: #414040;
+}
+
+/*====================================
+                   dropdown
+====================================*/
+
+.nav__menu ul ul{
+  position:absolute;
+  display: none;
+  background: rgb(192, 191, 191);
+  border-radius: 5px;
+}
+
+.nav__menu ul li:hover>ul{
+  display: block;;
+}
+
+.nav__menu ul ul li{
+  float: none;
+  display: list-item;
+  position:relative;
+}
+
+/* ==== perfect=====* */
+
+.nav-menu ul ul ul {
+  top: 0%;
+  left: 100%;
+  background: rgb(146, 146, 146);
+}
+
+/*====================================
+                   slider area
+====================================*/
+
+.slider__area{
+  background: url(../assets/0.doctor.webp) no-repeat center center/cover;
+  height: 650px;
+  width: 100%;
+}
+
+.single__slider {
+  transform: translate(30px, 140px);
+}
+
+.slider__title {
+  font-size: 70px;
+  padding: 20px 0px;
+}
+
+.slider__dec {
+  padding: 20px 0px;
+}
+
+/*====================================
+              services area
+====================================*/
+
+.services__area {
+  background-color: #83c4ff;
+}
+
+.services__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+.single__services {
+  padding: 15px 20px;
+  color: #fff;
+}
+
+.single__icon {
+  font-size: 45px;
+  padding: 10px 0px;
+}
+
+.single__title {
+  font-size: 22px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.single__dec {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+
+.single__services:nth-child(2){
+  background-color: #5db2ff;
+}
+
+
+/*====================================
+              Docmed area
+====================================*/
+
+.welcome__docmed__area {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.single__docmed__area{
+  position: relative;
+}
+
+.single__docmed__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.thumb_1{
+  left:0;
+  
+}
+
+.thumb_1 img {
+  width: 290px;
+}
+
+.thumb_2{
+  position: absolute;
+  top: 50px;
+  left: 187px;
+}
+
+.thumb_2 img{
+  width: 270px;
+}
+
+.welcome__docmed__info{
+  width: 500px;
+}
+
+.welcome__docmed__title h2{
+  padding: 20px 0px;
+  font-weight: 500;
+}
+
+.welcome__docmed__sub__title h3{
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.welcome__docmed__dec{
+  margin: 30px 0px;
+}
+
+.welcome__docmed__icon{
+  padding: 5px 0px;
+}
+
+.welcome__docmed__icon i{
+  color: #5db2ff;
+  padding: 0px 5px;
+}
+
+.single__button {
+  margin: 15px 0px;
+}
+
+/*====================================
+              Our depertment area
+====================================*/
+
+.single__depertment__header {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+.our__depertment__area {
+  background: #F5FBFF;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.depertment__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px 10px;
+}
+
+.depertment__single {
+  background: #fff;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
+  display: inline-block;
+  padding: 10px 10px 40px 15px;
+}
+
+.depertment__thumb {
+  overflow: hidden;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.depertment__thumb img {
+  width: 100%;
+  transform: scale(1);
+  transition: .3s;
+}
+
+.depertment__thumb img:hover{
+  transform: scale(1.2);
+}
+
+
+.depertment__content h3 a {
+  font-size: 22px;
+  color: #1f1f1f;
+  line-height: 33px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.depertment__link a {
+  color: #5db2ff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.depertment__link a:hover{
+  
+  text-decoration:underline;
+}
+
+/*====================================
+              testmonial area
+====================================*/
+
+.testmonial__area{
+  background: url(../assets/9.doctor.webp);
+  padding: 180px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+}
+
+.testmonial__area::before{
+position: absolute;
+content: "";
+background-color: #000;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: .5;
+}
+
+.testmonial__dec {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-top: 12px;
+  margin-bottom: 47px;
+}
+
+.testmonial__author {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+/*====================================
+             business area
+====================================*/
+.business__area {
+  background-color: #fff;
+}
+
+.business__tab {
+  background-color: #F5FBFF;
+}
+
+.business__item {
+  display: inline-block;
+  padding: 20px 50px;
+}
+
+.business__item a{
+  font-size: 20px;
+  font-weight: 400;
+  color: #1f1f1f;
+  padding: 35px 0 35px 40px;
+  text-decoration: none;
+}
+
+.business__content {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.business__icon i {
+  background: #5db2ff;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 50%;
+}
+
+.business__icon {
+  padding: 10px 0px;
+}
+
+.business__header {
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.business__dec {
+  width: 400px;
+}
+
+.business__thumb {
+  margin-left: 50px;
+}
+
+/*====================================
+              Doctor area
+====================================*/
+.doctor__area {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.single__doctor__header {
+  margin-bottom: 55px;
+  font-size: 25px;
+}
+
+.single__doctor__box {
+  background-color: #efefef;
+  display: inline-block;
+  transition: 0.3s;
+  padding-top: 0px;
+  padding-bottom: 18px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.single__doctor__img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+.single__doctor__img img {
+  transition: .3s;
+  transform: scale(1);
+  width: 100%;
+  overflow: hidden;
+}
+
+.single__doctor__img:hover{
+  transform: scale(1.1);
+}
+
+.single__doctor__box:hover{
+  background-color: #5db2ff;
+}
+
+.single__doctor__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/*====================================
+       Emergency contact area
+====================================*/
+.Emergency__contact__area{
+  display: flex;
+}
+
+.Emergency__contact__area .Emergency__container{
+  background-image: url(../assets/15.doctor.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+}
+
+.Emergency__contact__area .Emergency__container:nth-child(2){
+  background-image: url(../assets/16.doctor.webp);
+}
+
+.Emergency__contact__title {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+  display: flex;
+  
+}
+
+.Emergency__contact__title h1{
+   font-size: 26px;
+   font-weight: 500;
+   color: #fff;
+}
+
+.Emergency__contact__title p{
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.Emergency__overlay{
+  background: #83c4ffbd;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.Emergency__overlay:nth-child(2){
+  background: #5db2ffb8;
+}
+
+.Emergency__button {
+  margin: 0px 15px;
+}
+
+/*====================================
+              footer area
+====================================*/
+.footer__area {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #1f1f1f;
+}
+
+.single__info {
+  color: #fff;
+}
+
+.single__info ul li a {
+  color: #c7c7c7;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.single__info ul li {
+  list-style: none;
+  line-height: 40px;
+}
+
+.single__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0px 50px;
+}
+
+.single__info__social__links {
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #bababa;
+  cursor: pointer;
+}
+
+/* footer bottom */
+.footer__bottom {
+  padding: 50px;
+  background: #000;
+  text-align: center;
+}
+
+.single__info__title {
+  padding-bottom: 20px;
+}
+
+.single__info a {
+  font-size: 16px;
+  color: #919191;
+  text-decoration: none;
+  font-weight: 400;
+}

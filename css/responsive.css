@@ -1,0 +1,95 @@
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) and (min-width: 200px)  {
+  /* header */
+  .header__social{
+    width: 50%;
+    padding: 0px;
+  }
+  
+  .header__contact__list{
+    width: 50%;
+  }
+
+/* menu */
+  
+  /* slider */
+  .slider__title{
+  font-size: 40px;
+  padding: 10px 0px;
+  }
+  
+  /* services*/
+.services__container{
+    flex-wrap:nowrap;
+}
+  /* welcome */
+
+  
+  /* welcome docmed */
+.welcome__docmed__area {
+    padding: 0px 20px 0px;
+}
+
+div.single__docmed__box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+      
+  /* dpertment */
+.depertment__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* testimonial */
+
+/* business */
+.business__content {
+  display: block;
+  padding: 0px 40px;
+}
+
+.business__info {
+  padding: 25px 0px;
+}
+.business__item {
+  padding: 20px 10px;
+}
+
+.business__thumb{
+  margin-left: 0px;
+}
+
+/* expert doctor */
+
+.single__doctor__container {
+  display: grid;
+}
+
+/* Emergency contact */
+.Emergency__contact__area {
+  display: block;
+}
+  /* footer */
+.single__container {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+}
+  
+  
+
+}
+
+    
+  /* Large devices (desktops, 992px and up */
+  @media (min-width: 992px) {
+  }
+  
+ /* Extra large devices (large desktops, 1200px and up */
+  @media (min-width: 1200px) {
+
+
+  }
+  

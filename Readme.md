@@ -2,4 +2,4 @@
 
 #### https://github.com/ashrafulrahmansakil/home-work-1.git
 
-fully responsive
+## Fully responsive design

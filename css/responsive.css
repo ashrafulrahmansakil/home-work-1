@@ -29,13 +29,14 @@
 }
   
 .nav__menu ul {
+  z-index: 5;
   text-align: center;
   width: 100%;
   position: fixed;
   left: -200%;
   top: 80px;
-  transition: all .5s;
-  background-color:antiquewhite
+  transition: all .5s ease-in;
+  background-color: rgba(107, 107, 107, 0.667);
 }
 
 .nav__menu ul li {

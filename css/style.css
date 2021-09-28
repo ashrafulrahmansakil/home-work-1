@@ -20,6 +20,10 @@ span{
   color: #5db2ff;
 }
 
+img {
+  max-width: 100%;
+}
+
 button{
   background-color: #83c4ff;
   padding: 12px 26px;
@@ -241,7 +245,7 @@ input[type="button"]:hover{
 }
 
 .single__services {
-  padding: 15px 20px;
+  padding: 10px 20px;
   color: #fff;
 }
 
@@ -324,6 +328,7 @@ input[type="button"]:hover{
 
 .welcome__docmed__dec{
   margin: 30px 0px;
+  width: 80%;
 }
 
 .welcome__docmed__icon{
@@ -452,6 +457,7 @@ opacity: .5;
 ====================================*/
 .business__area {
   background-color: #fff;
+  padding: 15px 0px;
 }
 
 .business__tab {
@@ -499,7 +505,7 @@ opacity: .5;
 }
 
 .business__dec {
-  width: 400px;
+  width: 75%;
 }
 
 .business__thumb {
@@ -512,6 +518,7 @@ opacity: .5;
 .doctor__area {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: brown;
 }
 
 .single__doctor__header {

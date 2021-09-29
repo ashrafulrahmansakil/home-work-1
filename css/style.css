@@ -71,7 +71,7 @@ input[type="button"]:hover{
  ====================================*/
 
 .header__top {
-  padding: 12px 0;
+  padding: 10px 0;
   background: #e4f3fd;
   overflow: hidden;
 }
@@ -470,10 +470,10 @@ opacity: .5;
 }
 
 .business__item a{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   color: #1f1f1f;
-  padding: 35px 0 35px 40px;
+  padding: 0px 50px;
   text-decoration: none;
 }
 
